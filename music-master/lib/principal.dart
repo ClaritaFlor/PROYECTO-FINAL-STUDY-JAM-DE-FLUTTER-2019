@@ -8,7 +8,7 @@ class principal extends StatelessWidget {
     final welcome = Padding(
       padding: EdgeInsets.all(8.0),
       child: Text(
-        '.::TEMAS::.',
+        '.::TEMAS SEGUN GENERO::.',
         style: TextStyle(fontSize: 30.0, color: Colors.black87),
       ),
     );
