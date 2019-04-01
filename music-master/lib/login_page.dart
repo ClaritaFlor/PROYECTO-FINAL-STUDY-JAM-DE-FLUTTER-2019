@@ -10,13 +10,20 @@ class LoginPage extends StatefulWidget {
 class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
-    
+    /*final hola = Hero(
+      tag: 'hero',
+      child: CircleAvatar(
+        backgroundColor: Colors.transparent,
+        radius: 110.0,
+        child: Image.asset('assets/bienvenido.png'),
+      ),
+    );*/
     final logo = Hero(
       tag: 'hero',
       child: CircleAvatar(
         backgroundColor: Colors.transparent,
         radius: 110.0,
-        child: Image.asset('assets/logo.png'),
+        child: Image.asset('assets/logo1.png'),
       ),
     );
     
@@ -42,6 +49,7 @@ class _LoginPageState extends State<LoginPage> {
           shrinkWrap: true,
           padding: EdgeInsets.only(left: 24.0, right: 24.0),
           children: <Widget>[
+            //hola,
             logo,
             SizedBox(height: 30.0),
             loginButton,
