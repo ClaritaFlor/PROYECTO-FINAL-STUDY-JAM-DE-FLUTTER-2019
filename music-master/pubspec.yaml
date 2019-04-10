@@ -1,4 +1,4 @@
-name: preuniv_fcef
+name: music
 description: A new Flutter project.
 
 version: 1.0.0+1
@@ -9,6 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  audioplayers: ^0.8.0
 
   cupertino_icons: ^0.1.2
 
@@ -21,4 +22,6 @@ flutter:
   uses-material-design: true
 
   assets:
+   - assets/
    - assets/logo.png
+   - assets/zamp1.png
