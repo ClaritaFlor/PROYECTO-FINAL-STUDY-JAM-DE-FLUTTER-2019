@@ -7,7 +7,7 @@ NOMBRE DE LA APLICACION: "MUSIC-APP"
 -------------------------------------------------------
 Es un proyecto compacto el cual podria ser utilizado 
 como reproductor de musica o para pistas de una app 
-para aprender a leer partituras de algu instrumento 
+para aprender a leer partituras de algun instrumento 
 teniendo como guia la melodia.
 
 *Modo de Uso*
